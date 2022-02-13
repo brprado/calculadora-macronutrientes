@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+    </style>
+    <link rel="shortcut icon" href="./assets/apple.png" type="image/x-icon" />
+    <title>Macros Hipertrofia</title>
+  </head>
+  <body>
+    <div class="forms">
+      <h1 class="title">
+        Calculadora de Macros Hipertrofia
+        <img
+          src="./assets/kisspng-biceps-arm-muscle-muscle-5ac030653710d2.9609601815225447412256 (1).png"
+          alt=""
+          class="apple"
+        />
+      </h1>
+      <div class="generoContainer">
+        <p>Eu sou</p>
+        <select name="genero" class="genero">
+          <option value="homem" class="generos" id="homem">Homem</option>
+          <option value="mulher" class="generos" id="mulher">Mulher</option>
+        </select>
+      </div>
+      <input
+        class="idade"
+        type="number"
+        name="idade"
+        id=""
+        placeholder="Idade"
+      />
+      <input
+        class="altura"
+        type="number"
+        name="altura"
+        id=""
+        placeholder="Altura"
+      />
+      <input class="peso" type="number" name="peso" id="" placeholder="Peso" />
+      <input type="button" value="Calcular" class="calcButton" />
+    </div>
+    <div class="resultado">
+      <h1 class="title" id="titleResultado">Resultado</h1>
+      <div class="macros">
+        <div class="macro">
+          <h2>Carboidratos</h2>
+          <p><span class="valor" id="carbo">0</span>g</p>
+        </div>
+        <div class="macro">
+          <h2>Proteínas</h2>
+          <p><span class="valor" id="prot">0</span>g</p>
+        </div>
+        <div class="macro">
+          <h2>Gorduras</h2>
+          <p><span class="valor" id="gordura">0</span>g</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>
+        Desenvolvido por Bruno Prado
+        <a href="https://github.com/brprado" target="_blank"
+          ><img
+            class="gitlogo"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="Github"
+        /></a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

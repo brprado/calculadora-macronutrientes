@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5383b;
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.title {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.apple {
+  animation: rotate 4s infinite ease-in-out;
+  width: 3rem;
+}
+.forms {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+input:focus {
+  outline: none;
+}
+input[type="number"] {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+}
+input[type="button"] {
+  background-color: rgb(196, 194, 194);
+  border: none;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  color: rgb(32, 29, 29);
+  transition: all ease 300ms;
+}
+input[type="button"]:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.idade {
+  margin-top: 2rem;
+}
+.resultado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.resultado > .title {
+  background-color: #ba181b;
+  width: 57%;
+  border-radius: 10px;
+}
+.macro {
+  margin-top: 0.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+footer > p {
+  font-weight: bold;
+}
+.gitlogo {
+  width: 2rem;
+}
+
+.generoContainer {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+select,
+option {
+  border-radius: 5px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+select:focus {
+  outline: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
