@@ -18,7 +18,7 @@ buttonCalc.addEventListener("click", calcMacros);
 function calcMacros() {
   if (selectGenero.selectedIndex == 0) {
     //homem
-    var qtdeProteina = 1.6 * peso.value;
+    var qtdeProteina = 2.2 * peso.value;
     var qtdeGordura = 1 * peso.value;
     var qtdeCarboidrato = 8 * peso.value;
     var calorias = (qtdeProteina + qtdeCarboidrato) * 4 + qtdeGordura * 9;
